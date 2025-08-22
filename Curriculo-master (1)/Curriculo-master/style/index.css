@@ -1,0 +1,247 @@
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif; /* Fonte mais suave e moderna */
+}
+
+/* bloco rosa da esquerda */
+.esquerda {
+    width: 3.5%;
+    background-color: #e6b8c3; /* Rosa suave */
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}   
+
+/* bloco central */
+.centro {
+    width: 31.5%;
+    background-color: #fdf3f5; /* Fundo rosado claro */
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* área perfil */
+.perfil {
+    background-color: #f2e9eb; /* Rosa neutro mais claro */
+    justify-items: center;
+    padding-bottom: 15px;
+}
+
+.perfil img {
+    width: 70%;
+    border-radius: 300px;
+    margin-top: 10%;
+    border: 4px solid #e6b8c3; /* Moldura sutil */
+}
+
+.perfil #name {
+    font-weight: 900;
+    font-size: 4vw;
+    margin-top: 0.2em;
+    margin-bottom: 0em;
+    color: #a14c6e;
+}
+
+.perfil #lastname {
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin: 0em;
+    color: #c6708e;
+}
+
+.perfil p {
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #5a5a5a;
+}
+
+.perfil hr {
+    background-color: #c9a1ac;
+    height: 1%;
+    width: 80%;
+    border: none;
+}
+
+
+/* área contatos */
+#whats, #email, #linkedin, #instagram {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 3%;
+}
+
+.contatos img {
+    width: 10%;
+    height: 10%;
+    padding-right: 3%;
+}
+
+#whats, #email, #linkedin, #instagram p {
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin: 0;
+    color: #6a4c59;
+}
+
+/* área de idiomas */
+#title {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 10%;
+}
+
+#portugues, #espanhol, #ingles {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 4%;
+}
+
+#portugues img, #espanhol img, #ingles img {
+    width: 5%;
+    padding-right: 3%;
+}
+
+#portugues p, #espanhol p, #ingles p {
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin: 0;
+    width: 35%;
+    text-align: left;
+    color: #6a4c59;
+}
+
+/* Bolinhas de idioma */
+.port_ball1, .port_ball2, .port_ball3, .port_ball4, .port_ball5, .port_ball6 {
+    background-color: #e6b8c3;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+} 
+
+.esp_ball1, .esp_ball2, .esp_ball3, .esp_ball4 {
+    background-color: #e6b8c3;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+.esp_ball5, .esp_ball6 {
+    background-color: #f2e9eb;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+.ing_ball1, .ing_ball2, .ing_ball3 {
+    background-color: #e6b8c3;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+.ing_ball4, .ing_ball5, .ing_ball6 {
+    background-color: #f2e9eb;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+/* área de habilidades */
+#skills {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 5%;
+}
+
+#skills img {
+    width: 5%;
+    padding-right: 3%;
+}
+
+#skills p {
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin: 0;
+    width: 80%;
+    text-align: left;
+    color: #6a4c59;
+}
+
+/* títulos das áreas*/
+#title img {
+    width: 20%;
+    padding-right: 3%;
+}
+
+#title p {
+    font-weight: 700;
+    font-size: 1.8vw;
+    margin: 0;
+    color: #a14c6e;
+}
+
+
+/* bloco da direita */
+.direita {
+    width: 65%;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+#title_right {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#title_right img {
+    width: 8%;
+    padding-right: 2%;
+}
+
+#title_right h1 {
+    font-weight: 700;
+    font-size: 1.8vw;
+    margin: 0;
+    color: #a14c6e;
+}
+
+#infos p {
+    font-weight: 400;
+    font-size: 1.1vw;
+    color: #5a5a5a;
+}
+
+#education, #experience {
+    display: flex;
+    align-items: center;
+}
+
+#education img, #experience img {
+    width: 2%;
+    height: 2%;
+    padding-right: 3%;
+}
+
+#education p, #experience p {
+    margin-top: 0%;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #5a5a5a;
+}
+
+#education h3, #experience h3 {
+    margin-bottom: 3%;
+    font-size: 1.1vw;
+    color: #c6708e;
+}
